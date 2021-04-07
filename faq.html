@@ -40,6 +40,9 @@
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
 
+<!--translation script-->
+<script src="js/translation.js"></script>
+
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
@@ -77,11 +80,11 @@
             <div class="widget no-border m-0  pull-right flip sm-pull-none sm-text-center">
               <ul class="list-inline font-13 sm-text-center mt-5 mb-5 pull-right ">
               
-                <li><a href="" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
+                <li><a href="#" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
                 <li class="text-white">|</li>
                <!-- <li><a href="" class="text-white" onclick="setLanguage('ru');" id="russian_lang">Russian</a></li>
                 <li class="text-white">|</li>-->
-                <li><a href="" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
+                <li><a href="#" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
           
               </ul>
             </div>
@@ -119,21 +122,21 @@
         <div class="container">
           <nav id="menuzord" class="menuzord bg-theme-colored pull-left flip menuzord-responsive">
             <ul class="menuzord-menu">
-              <li style="margin-right: 10px;"><a href="index.html">Home</a>
+              <li style="margin-right: 10px;"><a id="home" href="index.html">Home</a>
               
               </li>
-              <li style="margin-right: 10px;"><a href="about.html">About <span class="label label-info"></span></a>
+              <li  style="margin-right: 10px;"><a id="about" href="about.html">About <span class="label label-info"></span></a>
               
               </li>
-              <li style="margin-right: 10px;"><a href="for-teachers.html">For Teachers</a>
+              <li  style="margin-right: 10px;"><a id="educators" href="for-teachers.html">For Teachers</a>
                
               </li>
-              <li style="margin-right: 10px;"><a href="for-parents.html">For Parents</a>
+              <li   style="margin-right: 10px;"><a id="parents" href="for-parents.html">For Parents</a>
                
               </li>
-              <li style="margin-right: 10px;"><a href="for-students.html">For Students</a>
+              <li style="margin-right: 10px;"><a id="students" href="for-students.html">For Students</a>
               </li>
-              <li  class="active " style="margin-right: 10px;"><a href="faq.html">FAQ</a>
+              <li class="active" style="margin-right: 10px;"><a id="faq" href="faq.html">FAQ</a>
                
               </li>
              
@@ -141,7 +144,7 @@
             <ul class="pull-right flip hidden-sm hidden-xs">
               <li>
                 <!-- Modal: Book Now Starts -->
-                <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="#">Get Started</a>
+                <a id="get_started" class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="#">Get Started</a>
                 <!-- Modal: Book Now End -->
               </li>
             </ul>
@@ -237,109 +240,109 @@
     </section>
     
     <!-- Divider: Clients -->
-    <section class="clients bg-theme-color-2">
-      <div class="container pt-10 pb-0">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- Section: Clients -->
-            <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
-              <div class="item"> <h2 class="text-white bold">Partners : </h2></div>
-              <div class="item"> <a href="#"><img src="images/unicef-footer.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/ministry-footer.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/eu-footer.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  <!-- end main-content -->
-  </div>
-
-  <footer id="footer" class="footer pb-0" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
-    <div class="container pt-60 pb-30">
-      <div class="row multi-row-clearfix">
-        <div class="col-sm-6 col-md-4">
-          <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
-            <p class="font-12 mt-20 mb-10">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
-            <ul class="styled-icons icon-dark mt-20">
-              <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" data-bg-color="#02B0E8"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" data-bg-color="#05A7E3"><i class="fa fa-skype"></i></a></li>
-              <li><a href="#" data-bg-color="#A11312"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" data-bg-color="#C22E2A"><i class="fa fa-youtube"></i></a></li>
-            </ul>
-          </div>
-        </div>
-       
-        <div class="col-sm-6 col-md-4 ">
-          <div class="widget dark text-center">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick links</h5>
-            <div class="latest-posts">
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Home</a></h5>
-                 
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">About</a></h5>
-                  
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Teachers</a></h5>
-            
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Parents</a></h5>
-            
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Students</a></h5>
-            
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">FAQ</a></h5>
-            
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="widget dark text-right">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick Contact</h5>
-            <ul class="list list-border">
-              <li><a href="#">support@maktabmobile.tj</a></li>
-              <li><a href="#" class="lineheight-20">Dushanbe, Tajikstan</a></li>
-            </ul>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-theme-colored p-20">
-      <div class="row text-center">
+   <section class="clients bg-theme-color-2">
+    <div class="container pt-10 pb-0">
+      <div class="row">
         <div class="col-md-12">
-          <p class="text-white font-11 m-0">Copyright &copy;2021 UNICEF Tajikistan. All Rights Reserved</p>
+          <!-- Section: Clients -->
+          <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
+            <div class="item"> <h2 class="text-white bold" id="partners">Partners : </h2></div>
+            <div class="item"> <a href="#"><img src="images/unicef-footer.png" alt=""></a></div>
+            <div class="item"> <a href="#"><img src="images/ministry-footer.png" alt=""></a></div>
+            <div class="item"> <a href="#"><img src="images/eu-footer.png" alt=""></a></div>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
+  </section>
+<!-- end main-content -->
+</div>
+
+<footer id="footer" class="footer pb-0" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
+  <div class="container pt-60 pb-30">
+    <div class="row multi-row-clearfix">
+      <div class="col-sm-6 col-md-4">
+        <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
+          <p class="font-12 mt-20 mb-10" id="maktab_desc_footer">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
+          <ul class="styled-icons icon-dark mt-20">
+            <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" data-bg-color="#02B0E8"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" data-bg-color="#05A7E3"><i class="fa fa-skype"></i></a></li>
+            <li><a href="#" data-bg-color="#A11312"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" data-bg-color="#C22E2A"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+     
+      <div class="col-sm-6 col-md-4 ">
+        <div class="widget dark text-center">
+          <h5 class="widget-title line-bottom-theme-colored-2" id="quick_links">Quick links</h5>
+          <div class="latest-posts">
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="index.html" id="homef">Home</a></h5>
+               
+              </div>
+            </article>
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="about.html" id="aboutf">About</a></h5>
+                
+              </div>
+            </article>
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="for-teachers.html" id="teachersf">For Teachers</a></h5>
+          
+              </div>
+            </article>
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="for-parents.html" id="parentsf">For Parents</a></h5>
+          
+              </div>
+            </article>
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="for-students.html" id="studentsf">For Students</a></h5>
+          
+              </div>
+            </article>
+            <article class="post media-post clearfix pb-0 mb-10">
+              <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+              <div class="post-right">
+                <h5 class="post-title mt-0 mb-5"><a href="faq.html" id="faqf">FAQ</a></h5>
+          
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="widget dark text-right">
+          <h5 class="widget-title line-bottom-theme-colored-2" id="email">Email</h5>
+          <ul class="list list-border">
+            <li><a href="#">support@maktabmobile.tj</a></li>
+            <li><a href="#" class="lineheight-20" id="dushanbe">Dushanbe, Tajikstan</a></li>
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-theme-colored p-20">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p class="text-white font-11 m-0">Copyright &copy;2021 UNICEF Tajikistan. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
