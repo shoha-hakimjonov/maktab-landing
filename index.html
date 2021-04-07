@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en">
 <head>
  
 <!-- Meta Tags -->
@@ -39,7 +39,7 @@
 
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
-
+<script src="js/translation.js"></script>
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
@@ -77,11 +77,11 @@
             <div class="widget no-border m-0  pull-right flip sm-pull-none sm-text-center">
               <ul class="list-inline font-13 sm-text-center mt-5 mb-5 pull-right ">
               
-                <li><a href="" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
+                <li><a href="#" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
                 <li class="text-white">|</li>
                <!-- <li><a href="" class="text-white" onclick="setLanguage('ru');" id="russian_lang">Russian</a></li>
                 <li class="text-white">|</li>-->
-                <li><a href="" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
+                <li><a href="#" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
           
               </ul>
             </div>
@@ -119,21 +119,21 @@
         <div class="container">
           <nav id="menuzord" class="menuzord bg-theme-colored pull-left flip menuzord-responsive">
             <ul class="menuzord-menu">
-              <li class="active " style="margin-right: 10px;"><a href="index.html">Home</a>
+              <li class="active " style="margin-right: 10px;"><a id="home" href="index.html">Home</a>
               
               </li>
-              <li style="margin-right: 10px;"><a href="about.html">About <span class="label label-info"></span></a>
+              <li style="margin-right: 10px;"><a id="about" href="about.html">About <span class="label label-info"></span></a>
               
               </li>
-              <li style="margin-right: 10px;"><a href="for-teachers.html">For Teachers</a>
+              <li  style="margin-right: 10px;"><a id="educators" href="for-teachers.html">For Teachers</a>
                
               </li>
-              <li style="margin-right: 10px;"><a href="for-parents.html">For Parents</a>
+              <li style="margin-right: 10px;"><a id="parents" href="for-parents.html">For Parents</a>
                
               </li>
-              <li style="margin-right: 10px;"><a href="for-students.html">For Students</a>
+              <li style="margin-right: 10px;"><a id="students" href="for-students.html">For Students</a>
               </li>
-              <li style="margin-right: 10px;"><a href="faq.html">FAQ</a>
+              <li style="margin-right: 10px;"><a id="faq" href="faq.html">FAQ</a>
                
               </li>
              
@@ -141,7 +141,7 @@
             <ul class="pull-right flip hidden-sm hidden-xs">
               <li>
                 <!-- Modal: Book Now Starts -->
-                <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="#">Get Started</a>
+                <a id="get_started" class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="#">Get Started</a>
                 <!-- Modal: Book Now End -->
               </li>
             </ul>
@@ -179,7 +179,7 @@
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway"
-                  id="rs-1-layer-1"
+                  id="rs_1_layer_1"
 
                   data-x="['left']"
                   data-hoffset="['30']"
@@ -204,7 +204,7 @@
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
-                  id="rs-1-layer-2"
+                  id="rs_1_layer_2"
 
                   data-x="['left']"
                   data-hoffset="['35']"
@@ -229,7 +229,7 @@
 
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white" 
-                  id="rs-1-layer-3"
+                  id="rs_1_layer_3"
 
                   data-x="['left']"
                   data-hoffset="['35']"
@@ -272,7 +272,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="for-students.html">Go To Students</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a id="go_to_students" class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="for-students.html">Go To Students</a> 
                 </div>
               </li>
 
@@ -284,7 +284,7 @@
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent-5 text-white font-raleway border-left-theme-color-2-6px border-right-theme-color-2-6px pl-30 pr-30"
-                  id="rs-2-layer-1"
+                  id="rs_2_layer_1"
                 
                   data-x="['center']"
                   data-hoffset="['0']"
@@ -309,7 +309,7 @@
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
-                  id="rs-2-layer-2"
+                  id="rs_2_layer_2"
 
                   data-x="['center']"
                   data-hoffset="['0']"
@@ -334,7 +334,7 @@
 
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white text-center" 
-                  id="rs-2-layer-3"
+                  id="rs_2_layer_3"
 
                   data-x="['center']"
                   data-hoffset="['0']"
@@ -377,7 +377,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="for-teachers.html">Go To Teachers</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a id="go_to_teachers" class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="for-teachers.html">Go To Teachers</a> 
                 </div>
               </li>
 
@@ -389,7 +389,7 @@
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-right-theme-color-2-6px pr-20 pl-20"
-                  id="rs-3-layer-1"
+                  id="rs_3_layer_1"
 
                   data-x="['right']"
                   data-hoffset="['30']"
@@ -414,7 +414,7 @@
 
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-uppercase bg-dark-transparent-6 text-white font-raleway pl-20 pr-20"
-                  id="rs-3-layer-2"
+                  id="rs_3_layer_2"
 
                   data-x="['right']"
                   data-hoffset="['35']"
@@ -439,7 +439,7 @@
 
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white text-right" 
-                  id="rs-3-layer-3"
+                  id="rs_3_layer_3"
 
                   data-x="['right']"
                   data-hoffset="['35']"
@@ -482,7 +482,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored btn-theme-colored border-right-theme-color-2-6px pl-20 pr-20" href="for-parents.html">Go To Parents</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a id="go_to_parents" class="btn btn-colored btn-lg btn-flat btn-theme-colored btn-theme-colored border-right-theme-color-2-6px pl-20 pr-20" href="for-parents.html">Go To Parents</a> 
                 </div>
               </li>
 
@@ -595,11 +595,11 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-6">
-              <h6 class="letter-space-4 text-gray-darkgray text-uppercase mt-0 mb-0">Welcome to</h6>
-              <h2 class="text-uppercase font-weight-600 mt-0 font-28 line-bottom">Matkab Mobile e-learning portal</h2>
-              <h4 class="text-theme-colored">Available to all students, teachers, and parents in the Republic of Tajikistan  </h4>
-              <p>Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition</p>
-              <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="about.html">Know More →</a>
+              <h6 id="welcome_to" class="letter-space-4 text-gray-darkgray text-uppercase mt-0 mb-0">Welcome to</h6>
+              <h2 id="mm_portal" class="text-uppercase font-weight-600 mt-0 font-28 line-bottom">Matkab Mobile e-learning portal</h2>
+              <h4 id="available" class="text-theme-colored">Available to all students, teachers, and parents in the Republic of Tajikistan  </h4>
+              <p id="welcome_desc">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition</p>
+              <a id="know_more" class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="about.html">Know More →</a>
             </div>
             <div class="col-md-6">
               <div class="video-popup">                
@@ -619,7 +619,7 @@
         <div class="section-title">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-uppercase text-theme-colored title line-bottom">What can you do through <span class="text-theme-color-2 font-weight-400">Maktab Mobile</span></h2>
+              <h2 id="what_can_you_do" class="text-uppercase text-theme-colored title line-bottom">What can you do through <span class="text-theme-color-2 font-weight-400">Maktab Mobile</span></h2>
             </div>
           </div>
         </div>
@@ -630,8 +630,8 @@
                 <i class="pe-7s-scissors"></i>
               </a>
               <div class="icon-box-details">
-                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5">Access learning resources</h4>
-                <p class="text-gray font-13 mb-0">Download and use digital learning resources like textbooks, videos, reading resources</p>
+                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5" id="access_learning_resources">Access learning resources</h4>
+                <p id="acces_learning_desc" class="text-gray font-13 mb-0">Download and use digital learning resources like textbooks, videos, reading resources</p>
               </div>
             </div>    
           </div>
@@ -641,8 +641,8 @@
                 <i class="pe-7s-pen"></i>
               </a>
               <div class="icon-box-details">
-                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5">Engage in learning process</h4>
-                <p class="text-gray font-13 mb-0">Do homework and give assignments to students</p>
+                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5" id="engage_in_learning">Engage in learning process</h4>
+                <p class="text-gray font-13 mb-0" id="do_homework">Do homework and give assignments to students</p>
               </div>
             </div>    
           </div>
@@ -652,8 +652,8 @@
                 <i class="pe-7s-tools"></i>
               </a>
               <div class="icon-box-details">
-                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5">Asses learning achievements</h4>
-                <p class="text-gray font-13 mb-0">Overview your class achievements<br> <br></p>
+                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5" id="asses_learning">Asses learning achievements</h4>
+                <p class="text-gray font-13 mb-0" id="asses_learning_desc">Overview your class achievements<br> <br></p>
               </div>
             </div>    
           </div>
@@ -663,8 +663,8 @@
                 <i class="pe-7s-vector"></i>
               </a>
               <div class="icon-box-details">
-                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5">Review Progress</h4>
-                <p class="text-gray font-13 mb-0">Show progress of learning through personalized access</p>
+                <h4 class="icon-box-title font-16 font-weight-600 m-0 mb-5" id="review_progress">Review Progress</h4>
+                <p class="text-gray font-13 mb-0" id="review_progress_desc">Show progress of learning through personalized access</p>
               </div>
             </div>    
           </div>
@@ -678,7 +678,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-uppercase text-theme-colored title ">How does Maktab Mobile reach the <span class="text-theme-color-2 font-weight-400">disconnected?</span></h2>
+              <h2 class="text-uppercase text-theme-colored title " id="how_do_reach_disconnected">How does Maktab Mobile reach the <span class="text-theme-color-2 font-weight-400">disconnected?</span></h2>
             </div>
           </div>
         </div>
@@ -689,8 +689,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/graduates.png" width="90" alt="">
                 </a>
-                <h4 class="icon-box-title text-uppercase"><a class="" href="#">Upload content</a></h4>
-                <p class="">Upload content only once and continue using Maktab Mobile offline</p>
+                <h4 class="icon-box-title text-uppercase"><a class="" href="#" id="upload_content">Upload content</a></h4>
+                <p id="upload_content_desc" class="">Upload content only once and continue using Maktab Mobile offline</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -698,8 +698,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/desktop.png" width="90" alt="">
                 </a>
-                <h4 class="icon-box-title text-uppercase"><a class="" href="#">Ensure Synchronization</a></h4>
-                <p class="">Ensure synchronization of updates among your students, classmates and peers off-line</p>
+                <h4 class="icon-box-title text-uppercase"><a class="" href="#" id="ensure_sync">Ensure Synchronization</a></h4>
+                <p class="" id="ensure_sync_desc">Ensure synchronization of updates among your students, classmates and peers off-line</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -707,8 +707,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/library.png" width="90" alt="">
                 </a>
-                <h4 class="icon-box-title text-uppercase"><a class="" href="#">Use peer-to-peer</a></h4>
-                <p class="">Continue to work and share content off-line through peer-to-peer distribution using Bluetooth or Wi-fi Direct</p>
+                <h4 class="icon-box-title text-uppercase"><a class="" href="#" id="use_peer">Use peer-to-peer</a></h4>
+                <p class="" id="use_peer_desc">Continue to work and share content off-line through peer-to-peer distribution using Bluetooth or Wi-fi Direct</p>
               </div>
             </div>
            
@@ -723,8 +723,8 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase mt-0 line-height-1">Learning Package</h2>
-              <p>Custom prepared set of resources to engage with your  <br>students</p>
+              <h2 class="text-uppercase mt-0 line-height-1" id="learning_package">Learning Package</h2>
+              <p id="learning_package_desc">Custom prepared set of resources to engage with your  <br>students</p>
             </div>
           </div>
         </div>
@@ -735,8 +735,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/7.png" width="70" alt="">
                 </a>
-                <h4 class="font-weight-600 mt-20">National Curriculum</h4>
-                <p>National Curriculum prepared by and for professional teachers for easier engagement with students</p>
+                <h4 class="font-weight-600 mt-20" id="national_curriculum">National Curriculum</h4>
+                <p id="national_curriculum_desc">National Curriculum prepared by and for professional teachers for easier engagement with students</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -744,8 +744,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/3.png" width="70" alt="">
                 </a>
-                <h4 class="font-weight-600 mt-20">Additional Reading Resources</h4>
-                <p>Set of reading resources made for studying and learning</p>
+                <h4 class="font-weight-600 mt-20" id="additional_reading_resources">Additional Reading Resources</h4>
+                <p id="additional_reading_resources_desc">Set of reading resources made for studying and learning</p>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -753,8 +753,8 @@
                 <a href="#" class="">
                   <img src="images/flaticon-png/small/2.png" width="70" alt="">
                 </a>
-                <h4 class="font-weight-600 mt-20">Educational Video Resources</h4>
-                <p>Videos prepared by proffesionals to ease the learning curve for students</p>
+                <h4 class="font-weight-600 mt-20" id="educational_video">Educational Video Resources</h4>
+                <p id="educational_video_desc">Videos prepared by proffesionals to ease the learning curve for students</p>
               </div>
             </div>
          
@@ -772,28 +772,28 @@
             <div class="funfact text-center">
               <i class="pe-7s-smile mt-5 text-theme-color-2"></i>
               <h2 data-animation-duration="2000" data-value="5248" class="animate-number text-white mt-0 font-38 font-weight-500">0</h2>
-              <h5 class="text-white text-uppercase mb-0">Happy Students</h5>
+              <h5 class="text-white text-uppercase mb-0" id="happy_students">Happy Students</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-note2 mt-5 text-theme-color-2"></i>
               <h2 data-animation-duration="2000" data-value="675" class="animate-number text-white mt-0 font-38 font-weight-500">0</h2>
-              <h5 class="text-white text-uppercase mb-0">Number of Resources</h5>
+              <h5 class="text-white text-uppercase mb-0" id="number_resources">Number of Resources</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
             <div class="funfact text-center">
               <i class="pe-7s-users mt-5 text-theme-color-2"></i>
               <h2 data-animation-duration="2000" data-value="248" class="animate-number text-white mt-0 font-38 font-weight-500">0</h2>
-              <h5 class="text-white text-uppercase mb-0">Number of Teachers</h5>
+              <h5 class="text-white text-uppercase mb-0" id="number_teachers">Number of Teachers</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 mb-md-0">
             <div class="funfact text-center">
               <i class="pe-7s-cup mt-5 text-theme-color-2"></i>
               <h2 data-animation-duration="2000" data-value="24" class="animate-number text-white mt-0 font-38 font-weight-500">0</h2>
-              <h5 class="text-white text-uppercase mb-0">Awards Won</h5>
+              <h5 class="text-white text-uppercase mb-0" id="awards_won">Awards Won</h5>
             </div>
           </div>
         </div>
@@ -806,7 +806,7 @@
         <div class="section-title mb-10">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1">Our<span class="text-theme-color-2 font-weight-400"> Gllery</span></h2>
+              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1" id="our_gallery">Our<span class="text-theme-color-2 font-weight-400"> Gallery</span></h2>
             </div>
           </div>
         </div>
@@ -815,10 +815,10 @@
             <div class="col-md-12">
               <!-- Works Filter -->
               <div class="portfolio-filter font-alt align-center">
-                <a href="#" class="active" data-filter="*">All</a>
-                <a href="#select1" class="" data-filter=".select1">Photos</a>
-                <a href="#select2" class="" data-filter=".select2">Campus</a>
-                <a href="#select3" class="" data-filter=".select3">Students</a>
+                <a href="#" class="active" data-filter="*" id="all">All</a>
+                <a href="#select1" class="" data-filter=".select1" id="teachersg">Teachers</a>
+                <a href="#select2" class="" data-filter=".select2" id="studentsg">Students</a>
+                <a href="#select3" class="" data-filter=".select3" id="parentsg">Parents</a>
               </div>
               <!-- End Works Filter -->
               
@@ -1056,7 +1056,7 @@
           <div class="col-md-12">
             <!-- Section: Clients -->
             <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
-              <div class="item"> <h2 class="text-white bold">Partners : </h2></div>
+              <div class="item"> <h2 class="text-white bold" id="partners">Partners : </h2></div>
               <div class="item"> <a href="#"><img src="images/unicef-footer.png" alt=""></a></div>
               <div class="item"> <a href="#"><img src="images/ministry-footer.png" alt=""></a></div>
               <div class="item"> <a href="#"><img src="images/eu-footer.png" alt=""></a></div>
@@ -1073,7 +1073,7 @@
       <div class="row multi-row-clearfix">
         <div class="col-sm-6 col-md-4">
           <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
-            <p class="font-12 mt-20 mb-10">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
+            <p class="font-12 mt-20 mb-10" id="maktab_desc_footer">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
             <ul class="styled-icons icon-dark mt-20">
               <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" data-bg-color="#02B0E8"><i class="fa fa-twitter"></i></a></li>
@@ -1086,47 +1086,47 @@
        
         <div class="col-sm-6 col-md-4 ">
           <div class="widget dark text-center">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick links</h5>
+            <h5 class="widget-title line-bottom-theme-colored-2" id="quick_links">Quick links</h5>
             <div class="latest-posts">
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Home</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="index.html" id="homef">Home</a></h5>
                  
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">About</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="about.html" id="aboutf">About</a></h5>
                   
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Teachers</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="for-teachers.html" id="teachersf">For Teachers</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Parents</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="for-parents.html" id="parentsf">For Parents</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">For Students</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="for-students.html" id="studentsf">For Students</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">FAQ</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="faq.html" id="faqf">FAQ</a></h5>
             
                 </div>
               </article>
@@ -1135,10 +1135,10 @@
         </div>
         <div class="col-sm-6 col-md-4">
           <div class="widget dark text-right">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick Contact</h5>
+            <h5 class="widget-title line-bottom-theme-colored-2" id="email">Email</h5>
             <ul class="list list-border">
               <li><a href="#">support@maktabmobile.tj</a></li>
-              <li><a href="#" class="lineheight-20">Dushanbe, Tajikstan</a></li>
+              <li><a href="#" class="lineheight-20" id="dushanbe">Dushanbe, Tajikstan</a></li>
             </ul>
           
           </div>
