@@ -6,9 +6,9 @@ app.translations = {
     tajik_lang: "Тоҷикӣ",
     home: "Асосӣ",
     about: "Дар бораи мо",
-    parents: "Барои Волидон",
-    educators: "Барои Муаллимон",
-    students: "Барои Хонандагон",
+    parents: "Барои волидон",
+    educators: "Барои омӯзгорон",
+    students: "Барои хонандагон",
     faq: "Саволҳо",
     get_started: "Оғоз",
 
@@ -16,59 +16,59 @@ app.translations = {
     //slider 1
     rs_1_layer_1: "Барои Хонандагон",
     rs_1_layer_2: "Беҳтарин роҳи баланд бардоштани натиҷаҳои таълим",
-    rs_1_layer_3: "Пешрафти худро пайгирӣ кунед ва <br> тестҳои онлайнро пешниҳод кунед!",
-    go_to_students: "Ба хонандагон гузаред",
+    rs_1_layer_3: "Пешрафти худро пайгирӣ кунед <br>ва тестҳоро тариқи онлайн пешниҳод кунед!",
+    go_to_students: "Ба қисмати хонандагон гузаред",
 
     //slider 2
-    rs_2_layer_1: "Барои Муаллимон",
-    rs_2_layer_2: "Беҳтарин усули ҳамкорӣ бо хонандагони худ",
-    rs_2_layer_3: "Бо донишҷӯёни худ бо истифодаи мундариҷаи <br> викторинаҳо ва супоришҳо ҳамкорӣ кунед.",
-    go_to_teachers: "Ба муаллимон гузаред",
+    rs_2_layer_1: "Барои омӯзгорон",
+    rs_2_layer_2: "Беҳтарин усули иртибот бо хонандагони худ",
+    rs_2_layer_3: "Бо хонандагони худ бо истифода аз викторинаҳо <br> ва супоришҳо иртибот намоед",
+    go_to_teachers: "Ба қисмати омӯзгорон гузаред",
 
     //slider 3
     rs_3_layer_1: "Барои Волидон",
     rs_3_layer_2: "Пешрафти фарзанди худро дастгирӣ кунед",
-    rs_3_layer_3: "Муваффақияти фарзанди худро <br> назорат кунед ва ба онҳо барои ба даст овардани бештар кӯмак расонед.",
-    go_to_parents: "Ба волидон гузаред",
+    rs_3_layer_3: "Муваффақияти фарзанди худро <br> назорат кунед ва ба онҳо барои пешрафти бештар кӯмак намоед.",
+    go_to_parents: "Ба қисмати волидон гузаред",
 
-    welcome_to: "Хуш омадед ба",
-    mm_portal: "Maktab Mobile портали омӯзиши электронӣ",
-    available: "Барои ҳама донишҷӯён, омӯзгорон ва волидони Ҷумҳурии Тоҷикистон дастрас аст",
-    welcome_desc: "Maktab Mobile нахустин портали омӯзиши электронии Вазорати маориф ва илм мебошад, ки дар ҳама ҷо кор мекунад (компютерҳо, планшетҳо, телефонҳои мобилӣ) ҳам on-line ва ҳам ғоиб барои мусоидат ба омӯзиш ва дарёфти салоҳият.",
+    welcome_to: "Хуш омадед",
+    mm_portal: "БА ПЛАТФОРМАИ ОМӮЗИШИ РАҚАМИИ МАКТАБ МОБАЙЛ ",
+    available: "Барои ҳамаи хонандагон, омӯзгорон ва волидони Ҷумҳурии Тоҷикистон дастрас аст",
+    welcome_desc: "Мактаб Мобайл нахустин платформаи омӯзиши рақамии Вазорати маориф ва илми Ҷумҳурии Тоҷикистон мебошад, ки дар ҳама гуна воситаҳо (компютерҳо, планшетҳо, телефонҳои мобилӣ) ҳам тариқи онлайн ва офлайн барои мусоидат ба омӯзиш ва рушди салоҳиятҳо таҳия гардидааст",
     know_more: "Маълумоти бештар →",
-    what_can_you_do: 'Шумо чи метавонед карда ба воситаи <span class="text-theme-color-2 font-weight-400">Maktab Mobile',
-    access_learning_resources: "Дастрасӣ ба захираҳои омӯзишӣ",
-    acces_learning_desc: "Захираҳои омӯзиши рақамиро ба монанди китобҳои дарсӣ, видео, манбаъҳои хониш зеркашӣ ва истифода баред",
+    what_can_you_do: 'ШУМО ТАВАССУТИ МАКТАБ МОБАЙЛ <span class="text-theme-color-2 font-weight-400">ЧИ МЕТАВОНЕД КАРД? ',
+    access_learning_resources: "Дастрасӣ ба маводи омӯзишӣ",
+    acces_learning_desc: "Маводи омӯзишии рақамиро ба монанди китобҳои дарсӣ, видео, маводи хониш зеркашӣ ва истифода баред",
     engage_in_learning: "Бо раванди таълим машғул шавед",
-    do_homework: "Вазифаи хонагӣ иҷро кунед ва ба донишҷӯён супориш диҳед",
+    do_homework: "Иҷрои вазифаи хонагӣ ва супоришҳо аз тарафи хонандагон",
     asses_learning: "Муваффақиятҳои омӯзиширо арзёбӣ мекунанд",
     asses_learning_desc: "Дастовардҳои синфии худро шарҳ диҳед",
-    review_progress: "Пешрафтро баррасӣ кунед",
+    review_progress: "Пешрафтро баррасӣ намоед",
     review_progress_desc: "Пешрафти омӯзишро тавассути дастрасии фардӣ нишон диҳед",
-    how_do_reach_disconnected: 'Чи тавр Maktab Mobile ба одамони <span class="text-theme-color-2 font-weight-400">бе интернет</span> кумак мекунад?',
-    upload_content: "Маводҳоро баргузоред",
-    upload_content_desc: "Танҳо як бор мундариҷаро бор кунед ва истифодаи Maktab Mobile-ро ба таври мустақим идома диҳед",
-    ensure_sync: "Ҳамоҳангсозиро таъмин кунед",
-    ensure_sync_desc: "Ҳамоҳангсозии навсозиҳо дар байни донишҷӯён, ҳамсинфон ва ҳамсолони ғайримуқаррарии худро таъмин кунед",
-    use_peer: "ИСТИФОДАБАРИИ ҲАМСАФА",
-    use_peer_desc: "Корро идома диҳед ва мундариҷаро ғайримуқаррарӣ тавассути тақсимоти ҳамсол ба воситаи Bluetooth ё Wi-fi Direct мубодила кунед",
+    how_do_reach_disconnected: 'ЧИ ТАВР МАКТАБ МОБАЙЛ БА ШАХСОНИ <span class="text-theme-color-2 font-weight-400">БЕ ДАСТРАСӢ</span> БА ИНТЕРНЕТ КУМАК МЕКУНАД?',
+    upload_content: "МАЗМУНРО БОРГИРӢ НАМОЕД",
+    upload_content_desc: "Танҳо як бор мундариҷаро боргирӣ кунед ва истифодаи Мактаб Мобайл-ро ба таври мустақим идома диҳед",
+    ensure_sync: "ТАЪМИНИ ҲАМОҲАНГСОЗӢ",
+    ensure_sync_desc: "Ҳамоҳангсозии навигариҳоро бо хонандагон, ҳамсинфон ва ҳамсолони худ тариқи офлайн таъмин намоед",
+    use_peer: "ИСТИФОДАБАРИИ ҲАМСОЛ БА ҲАМСОЛ",
+    use_peer_desc: "Машғулиятҳоро идома дода, мундариҷаро офлайн бо истифода аз функсияи ҳамсол ба ҳамсол ва тавассути Bluetooth ё Wi-fi Direct мубодила намоед",
     learning_package: "Бастаи омӯзишӣ",
-    learning_package_desc: "Маҷмӯи захираҳои фармоишии омодашуда барои ҳамкорӣ бо<br> донишҷӯён",
-    national_curriculum: "Барномаи миллии таълимӣ",
-    national_curriculum_desc: "Барномаи миллии таълимӣ аз ҷониби муаллимони касбӣ барои ҳамкории осон бо донишҷӯён таҳия шудааст",
-    additional_reading_resources: "Захираҳои иловагии хониш",
-    additional_reading_resources_desc: "Маҷмӯи манбаъҳои хониш барои таҳсил ва омӯзиш",
-    educational_video: "Захираҳои видеоии таълимӣ",
-    educational_video_desc: "Видеоҳое, ки аз ҷониби мутахассисон таҳия карда шудаанд, то каҷравии таълимро барои донишҷӯён сабуктар кунанд",
+    learning_package_desc: "Маҷмӯи маводи омодашуда барои тамос бо <br>хонандагон",
+    national_curriculum: "Барномаи таълимӣ",
+    national_curriculum_desc: "Барномаи таълимӣ аз ҷониби омӯзгорони касбӣ барои иртиботи осон бо хонандагон таҳия шудааст",
+    additional_reading_resources: "Маводи иловагии хониш",
+    additional_reading_resources_desc: "Маҷмӯи маводи хониш барои таҳсил ва омӯзиш",
+    educational_video: "Маводи видеоии таълимӣ",
+    educational_video_desc: "Видео наворҳо аз ҷониби мутахассисон бо мақсади ҳалли мушкилиҳои таълимии хонандагон таҳия шудаанд",
 
-    happy_students: "Донишҷӯёни хушбахт",
-    number_resources: "Шумораи захираҳо",
-    number_teachers: "Шумораи муаллимон",
-    awards_won: "Ҷоизаҳои ғолиб",
-    our_gallery: 'Галереяи<span class="text-theme-color-2 font-weight-400"> Мо</span>',
+    happy_students: "ХОНАНДАГОНИ ХУШБАХТ",
+    number_resources: "ШУМОРАИ МАВОДИ ТАЪЛИМӢ",
+    number_teachers: "ШУМОРАИ ОМӮЗГОРОН",
+    awards_won: "ҶОИЗАҲО",
+    our_gallery: 'Махзани <span class="text-theme-color-2 font-weight-400"> расмҳо</span>',
     all: "Ҳама",
-    teachersg: "Муаллимон",
-    studentsg: "Донишҷуён",
+    teachersg: "Омӯзгорон",
+    studentsg: "Хонандагон",
     parentsg: "Волидон",
 
     partners: "Шарикон :",
@@ -209,6 +209,7 @@ app.translations = {
 };
 setLanguage(getCookie('lang') || 'en');
 function setLanguage(language) {
+  console.log('setting language ' + language);
   var x = getCookie('lang');
   if (x) {
     if (x != language) {
@@ -218,11 +219,14 @@ function setLanguage(language) {
   } else {
     setCookie('lang', language, 7);
   }
+  console.log(getCookie('lang'));
   document.documentElement.lang = language;
   var currentLanguage = getCookie('lang');
 
   app.lang = app.translations[currentLanguage] || app.translations.en;
-  //changeLogo(currentLanguage);
+  console.log(app.lang);
+  changeLogo(currentLanguage);
+  changePartnerLogos(currentLanguage);
   for (const property in app.lang) {
     // console.log(`${property}: ${app.lang[property]}`);
     if (document.getElementById(property) != null && currentLanguage != "en") {
@@ -257,14 +261,21 @@ function eraseCookie(name) {
 
 function changeLogo(lang) {
   var img = document.getElementById("logo_img");
-  if(lang == 'en'){
-    img.src = "img/logo_en.png";
-  }else if(lang=='ru'){
-    img.src = "img/logo_ru.png";
-  }else if(lang=='tj'){
-    img.src = "img/logo_tj.png";
+  var ministry = document.getElementById("logo_ministry");
+  if(lang=='tj'){
+    img.src = "images/logo-wide-tj.png";
+    ministry.src = "images/ministr-resized-tj.png";
   }
-/*var src = document.getElementById("logo_a");
-src.appendChild(img);*/
+}
+
+function changePartnerLogos(lang) {
+  var partner_moes = document.getElementById("moes");
+  var partner_eu = document.getElementById("eu");
+  var partner_unicef = document.getElementById("unicef");
+  if(lang=='tj'){
+    partner_moes.src = "images/moes-tj.png";
+    partner_eu.src = "images/un-tj.png";
+    partner_unicef.src = "images/unicef-tj.png";
+  }
 }
 
