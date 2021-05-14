@@ -183,7 +183,7 @@ app.translations = {
     //for students
     for_students_b: "Барои Хонандагон",
     for_studentsb: "Барои Хонандагон",
-    how_do_students_use: 'Донишҷӯён аз  <span class="text-theme-color-2 font-weight-400">Maktab Мобайл </span>чӣ гуна истифода мебаранд? ?',
+    how_do_students_use: 'Хонандагон аз  <span class="text-theme-color-2 font-weight-400">Maktab Мобайл </span>чӣ гуна истифода мебаранд? ?',
     how_do_students_use_d: "Мактаб Мобайл машқҳои амалӣ, видеоҳои таълимӣ ва лавҳаи омӯзиши инфиродиро пешниҳод мекунад, ки ба хонандагон имкон медиҳад, ки дар синф ва ё берун аз он таҳсил кунед. <br>Тавассути платформаи Мактаб Мобайл, иртиботи шумо бо омӯзгор ва дастрасӣ ба маводи таълимӣ бемаҳдуд шудааст ва тамоми мактаб ба осонӣ дар компютерҳо ва планшетҳои шумо ҷой мегирад. ",
 
     how_to_download_student: 'Чӣ тавр <span class="text-theme-colored">  барнома дар дастгоҳи худ зеркашӣ  </span><br> ва сабти ном карда мешавад?',
@@ -220,7 +220,7 @@ function setLanguage(language) {
   console.log('setting language ' + language);
   document.documentElement.lang = language;
   var currentLanguage = getCookie('lang');
-  app.lang = app.translations[currentLanguage] || app.translations.en;
+  app.lang = app.translations[currentLanguage] || app.translations.tj;
   console.log(app.lang);
   changeLogo(currentLanguage);
   changePartnerLogos(currentLanguage);
