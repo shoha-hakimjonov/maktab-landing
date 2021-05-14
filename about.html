@@ -40,8 +40,7 @@
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
 
-<!--translation script-->
-<script src="js/translation.js"></script>
+
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
@@ -80,11 +79,11 @@
           <div class="widget no-border m-0  pull-right flip sm-pull-none sm-text-center">
             <ul class="list-inline font-13 sm-text-center mt-5 mb-5 pull-right ">
             
-              <li><a href="#" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
+              <li><a href="#" class="text-white" onclick="setCookieAndReload('en');" id="english_lang">English</a></li>
               <li class="text-white">|</li>
              <!-- <li><a href="" class="text-white" onclick="setLanguage('ru');" id="russian_lang">Russian</a></li>
               <li class="text-white">|</li>-->
-              <li><a href="#" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
+              <li><a href="#" class="text-white" onclick="setCookieAndReload('tj');" id="tajik_lang">Tajik</a></li>
         
             </ul>
           </div>
@@ -97,7 +96,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-5">
           <div class="widget no-border m-0">
-            <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.png" alt=""></a>
+            <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img id="logo_img" src="images/logo-wide.png" alt=""></a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4">
@@ -111,7 +110,7 @@
         </div>  
         <div class="col-xs-12 col-sm-4 col-md-3">
           <div class="widget no-border pull-right sm-pull-none sm-text-center mt-10 mb-10 m-0">
-            <a class="menuzord-brand pull-right flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/ministr-resized.png" alt=""></a>
+            <a class="menuzord-brand pull-right flip xs-pull-center mb-15" href="javascript:void(0)"><img id="logo_ministry" src="images/ministr-resized.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -122,10 +121,10 @@
       <div class="container">
         <nav id="menuzord" class="menuzord bg-theme-colored pull-left flip menuzord-responsive">
           <ul class="menuzord-menu">
-            <li style="margin-right: 10px;"><a id="home" href="index.html">Home</a>
+            <li  style="margin-right: 10px;"><a id="home" href="index.html">Home</a>
             
             </li>
-            <li class="active" style="margin-right: 10px;"><a id="about" href="about.html">About <span class="label label-info"></span></a>
+            <li class="active " style="margin-right: 10px;"><a id="about" href="about.html">About <span class="label label-info"></span></a>
             
             </li>
             <li  style="margin-right: 10px;"><a id="educators" href="for-teachers.html">For Teachers</a>
@@ -136,7 +135,7 @@
             </li>
             <li style="margin-right: 10px;"><a id="students" href="for-students.html">For Students</a>
             </li>
-            <!--<li style="margin-right: 10px;"><a id="faq" href="faq.html">FAQ</a>-->
+           <!-- <li style="margin-right: 10px;"><a id="faq" href="faq.html">FAQ</a>-->
              
             </li>
            
@@ -240,8 +239,8 @@
                         <div class="display-table">
                           <div class="display-table-cell">
                             <h3 class="text-theme-color-2" id="teacherssb">Teachers</h3>
-                            <p class="text-gray-lightgray">Sed gravida, ligula eget aliquam elementum, justo nisl mattis neque, in molestie ipsum dolor eu justo. Duis nec aliquam nulla. Sed interdum orci non mi porttitor, a dapibus ante varius.</p>
-                            <a href="#" class="btn btn-default mt-10"> Read More </a>
+                            <p class="text-gray-lightgray" id="teacherssb_d">Maktab Mobile digital learning platform allow teachers to teach lesson content in new and interesting ways. The platform includes lessons with a variety of multimedia elements, including videos, animations, photos, and audio recordings. </p>
+                         
                           </div>
                         </div>
                     </div>
@@ -273,8 +272,8 @@
                         <div class="display-table">
                           <div class="display-table-cell">
                             <h3 class="text-theme-color-2" id="parentssb">Parents</h3>
-                            <p class="text-gray-lightgray">Sed gravida, ligula eget aliquam elementum, justo nisl mattis neque, in molestie ipsum dolor eu justo. Duis nec aliquam nulla. Sed interdum orci non mi porttitor, a dapibus ante varius.</p>
-                            <a href="#" class="btn btn-default mt-10"> Read More </a>
+                            <p id="parentssb_d" class="text-gray-lightgray">If you are a parent that values being involved and active in the education of your kid/s, then you will need to familiarize yourself with Maktab Mobile e-learning platform. Trying to help your children with their homework can be difficult if you don’t know how to navigate around their e-learning system.</p>
+                          
                           </div>
                         </div>
                     </div>
@@ -306,9 +305,7 @@
                         <div class="display-table">
                           <div class="display-table-cell">
                             <h3 class="text-theme-color-2" id="studentssb">Students</h3>
-                            <p class="text-gray-lightgray">Sed gravida, ligula eget aliquam elementum, justo nisl mattis neque, in molestie ipsum dolor eu justo. Duis nec aliquam nulla. Sed interdum orci non mi porttitor, a dapibus ante varius.</p>
-                            <a href="#" class="btn btn-default mt-10"> Read More </a>
-                          </div>
+                            <p class="text-gray-lightgray" id="studentssb_d">Maktab Mobile offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at your own pace in and outside of the classroom.</p>                          </div>
                         </div>
                     </div>
                   </div>
@@ -403,7 +400,6 @@
       </div>
     </section>
 
-      <!-- Divider: Clients -->
     <section class="clients bg-theme-color-2">
       <div class="container pt-10 pb-0">
         <div class="row">
@@ -411,9 +407,9 @@
             <!-- Section: Clients -->
             <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
               <div class="item"> <h2 class="text-white bold" id="partners">Partners : </h2></div>
-              <div class="item"> <a href="#"><img src="images/unicef-footer.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/ministry-footer.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/eu-footer.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img id="moes" src="images/moes.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img id="eu" src="images/un.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img id="unicef" src="images/unicef.png" alt=""></a></div>
             </div>
           </div>
         </div>
@@ -426,7 +422,7 @@
     <div class="container pt-60 pb-30">
       <div class="row multi-row-clearfix">
         <div class="col-sm-6 col-md-4">
-          <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
+          <div class="widget dark"> <img alt="" id="footer_logo" src="images/logo-wide-white.png">
             <p class="font-12 mt-20 mb-10" id="maktab_desc_footer">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
             <ul class="styled-icons icon-dark mt-20">
               <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
@@ -443,47 +439,47 @@
             <h5 class="widget-title line-bottom-theme-colored-2" id="quick_links">Quick links</h5>
             <div class="latest-posts">
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="index.html" id="homef">Home</a></h5>
                  
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="about.html" id="aboutf">About</a></h5>
                   
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-teachers.html" id="teachersf">For Teachers</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-parents.html" id="parentsf">For Parents</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-students.html" id="studentsf">For Students</a></h5>
             
                 </div>
               </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+             <!-- <article class="post media-post clearfix pb-0 mb-10">
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="faq.html" id="faqf">FAQ</a></h5>
             
                 </div>
-              </article>
+              </article>-->
             </div>
           </div>
         </div>
@@ -513,6 +509,8 @@
 <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 
 <script src="js/custom.js"></script>
+<!--translation script-->
+<script src="js/translation.js"></script>
 
 </body>
 </html>

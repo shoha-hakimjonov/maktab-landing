@@ -39,7 +39,7 @@
 
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
-<script src="js/translation.js"></script>
+
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
@@ -62,7 +62,7 @@
       </div>
     </div>
    <!-- <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>-->
-  </div> 
+  </div>
   
   <!-- Header -->
   <header id="header" class="header">
@@ -77,11 +77,11 @@
             <div class="widget no-border m-0  pull-right flip sm-pull-none sm-text-center">
               <ul class="list-inline font-13 sm-text-center mt-5 mb-5 pull-right ">
               
-                <li><a href="#" class="text-white" onclick="setLanguage('en');" id="english_lang">English</a></li>
+                <li><a href="#" class="text-white" onclick="setCookieAndReload('en');" id="english_lang">English</a></li>
                 <li class="text-white">|</li>
                <!-- <li><a href="" class="text-white" onclick="setLanguage('ru');" id="russian_lang">Russian</a></li>
                 <li class="text-white">|</li>-->
-                <li><a href="#" class="text-white" onclick="setLanguage('tj');" id="tajik_lang">Tajik</a></li>
+                <li><a href="#" class="text-white" onclick="setCookieAndReload('tj');" id="tajik_lang">Tajik</a></li>
           
               </ul>
             </div>
@@ -172,7 +172,7 @@
             <ul>
 
               <!-- SLIDE 1 -->
-              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/tj/IMG_5167-min.jpg"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -277,7 +277,7 @@
               </li>
 
               <!-- SLIDE 2 -->
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/tj/MG_6417-min.jpg"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -382,7 +382,7 @@
               </li>
 
               <!-- SLIDE 3 -->
-              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
+              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/tj/MG_5010-min.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -678,7 +678,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-uppercase text-theme-colored title " id="how_do_reach_disconnected">How does Maktab Mobile reach the <span class="text-theme-color-2 font-weight-400">disconnected?</span></h2>
+              <h2 class="text-uppercase text-theme-colored title " id="how_do_reach_disconnected">HOW DOES MAKTAB MOBILE REACH THOSE <span class="text-theme-color-2 font-weight-400">WITHOUT INTERNET?</span></h2>
             </div>
           </div>
         </div>
@@ -765,7 +765,7 @@
     </section>
 
     <!-- Divider: Funfact -->
-    <section class="divider parallax layer-overlay overlay-theme-colored-9" data-bg-img="http://placehold.it/1920x1280" data-parallax-ratio="0.7">
+    <section class="divider parallax layer-overlay overlay-theme-colored-9" data-bg-img="" data-parallax-ratio="0.7">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
@@ -890,7 +890,7 @@
     <div class="container pt-60 pb-30">
       <div class="row multi-row-clearfix">
         <div class="col-sm-6 col-md-4">
-          <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
+          <div class="widget dark"> <img alt="" id="footer_logo" src="images/logo-wide-white.png">
             <p class="font-12 mt-20 mb-10" id="maktab_desc_footer">Maktab Mobile is the first e-learning portal of the Ministry of Education and Science that works everywhere (computers, tablets, mobile phones) both on-line and off-line promoting learning and competency acquisition. </p>
             <ul class="styled-icons icon-dark mt-20">
               <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
@@ -907,47 +907,47 @@
             <h5 class="widget-title line-bottom-theme-colored-2" id="quick_links">Quick links</h5>
             <div class="latest-posts">
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="index.html" id="homef">Home</a></h5>
                  
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="about.html" id="aboutf">About</a></h5>
                   
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-teachers.html" id="teachersf">For Teachers</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-parents.html" id="parentsf">For Parents</a></h5>
             
                 </div>
               </article>
               <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="for-students.html" id="studentsf">For Students</a></h5>
             
                 </div>
               </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a class="post-thumb" href="#"><img src="https://placehold.it/80x55" alt=""></a>
+             <!-- <article class="post media-post clearfix pb-0 mb-10">
+                <a class="post-thumb" href="#"><img src="" alt=""></a>
                 <div class="post-right">
                   <h5 class="post-title mt-0 mb-5"><a href="faq.html" id="faqf">FAQ</a></h5>
             
                 </div>
-              </article>
+              </article>-->
             </div>
           </div>
         </div>
@@ -978,7 +978,7 @@
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
-
+<script src="js/translation.js"></script>
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
       (Load Extensions only on Local File Systems ! 
        The following part can be removed on Server for On Demand Loading) -->
